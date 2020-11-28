@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Repositries</title>
+    <link rel="shortcut icon" href="Assets/Img/GitHub-Mark/PNG/GitHub-Mark-32px.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/style.css">
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+            <div class="nav-icon" onclick="dropdownButton()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="octicon">
+                <i class="fab fa-github"></i>
+            </div>
+            <div class="notify-icon">
+                <i class="far fa-bell"></i>
+            </div>
+        </div>
+        <div class="dropdown none">
+            <div class="nav-list">
+                <div class="searchBar">
+                    <input type="text" placeholder="Search or jump to...">
+                    <div id="slash">
+                        <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="slash thingy">
+                    </div>
+                </div>
+                <div class="nav-links">
+                    <div class="links">
+                        <hr>
+                        <a href="#">Dashboard</a>
+                    </div>
+                    <div class="links">
+                        <hr>
+                        <a href="#">Pull requests</a>
+                    </div>
+                    <div class="links">
+                        <hr>
+                        <a href="#">Issues</a>
+                    </div>
+                    <div class="links">
+                        <hr>
+                        <a href="#">Marketplace</a>
+                    </div>
+                    <div class="links">
+                        <hr>
+                        <a href="#">Explore</a>
+                    </div>
+                    <div class="links">
+                        <hr>
+                        <a href="#">Username</a>
+                    </div>
+                    <div class="links">
+                        <hr>
+                        <a href="#"> <i class="fas fa-sign-out-alt"></i>&nbsp;Sign out </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="contents">
+        <section class="user-details">
+            <div class="imgs">
+                <img src="Assets/Img/GitHub-Mark/Harith_Resi.jpg" alt="" >
+            </div>
+            <div class="name">
+                <h1 id="name">Harith Onigx</h1>
+                <p id="username">Harithmetic1</p>
+            </div>
+        </section>
+        <section class="buttonSide">
+            <div class="buttons">
+                <button> <span><i class="far fa-smile"></i></span> Set status</button>
+            </div>
+            <div class="button2">
+                <button id="edit">Edit profile</button>
+            </div>
+        </section>
+        <section class="socials">
+            <div class="followers">
+                <span><i class="fas fa-user-friends"></i></span> <span class="followerCount">10</span> followers
+            </div>
+        </section>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/dc7f1f050e.js" crossorigin="anonymous"></script>
+<script src="Assets/script.js"></script>
+</html>
